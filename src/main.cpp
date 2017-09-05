@@ -509,6 +509,7 @@ int test_mnist() {
 		y.setGradZeros();
 
 		layer00.forward();
+		layer01.forward();
 		layer02.forward();
 		layer10.forward();
 		layer11.forward();
