@@ -1,5 +1,5 @@
 # easy_neural_network
-a simple c++ file for learing how data flow graphs work.
+a single c++ file for learing how data flow graphs work.
 
 ## 1. Introduction
 This repository shows you how some deep learning frameworks work. The core parts of `main.cpp` are `class Unit` and `class Gate`. `Unit` is the node in computation graph if you know reverse-mode automatic differentiation. `Gate` is the math operation in computation graph. I derive many other gates from `class Gate`, such as `AddGate` to do add operation, `SigGate` to do a sigmod function operation. In the test part, I use mnist database to test if my program works well.
